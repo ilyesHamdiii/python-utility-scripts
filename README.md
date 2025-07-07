@@ -1,70 +1,48 @@
-# 🛠️ Python Utility Scripts
+# 🧰 Python Utility Scripts
 
-A collection of small yet powerful Python scripts and mini-projects for learning, automation, and problem-solving.
+Welcome to the **Python Utility Scripts** collection — a growing set of mini-projects designed to automate tasks, explore core Python concepts, and build useful tools for everyday programming.
 
----
+## 🧠 About This Repository
 
-## 📂 Projects
+Each script is self-contained, beginner-to-intermediate level, and can be used as:
 
-### 1. 🔍 Binary Search Algorithm
-
-- **Description:** Efficiently searches for an element in a sorted list using divide and conquer.
-- **Features:** Fast lookup in O(log n) time.
-- **Usage:** Run the script, input a sorted list and a target value.
+- Study material for Python learners
+- Utility scripts for real-life tasks
+- A foundation for more complex projects
 
 ---
 
-### 2. ✉️ Email Sender
+## 📦 Project List
 
-- **Description:** Sends emails using SMTP with customizable subject and body.
-- **Features:** SMTP configuration, login auth, email content formatting.
-- **Usage:** Configure sender email & password, and run the script.
-
----
-
-### 3. ✂️ Email Slicer
-
-- **Description:** Takes an email address and slices it into username, domain, and extension.
-- **Features:** Input validation with regex.
-- **Usage:** Run script and input a valid email address.
-
----
-
-### 4. 📄 PDF Metadata Reader
-
-- **Description:** Extracts metadata (author, title, creation date, etc.) from PDF files.
-- **Libraries:** `PyPDF2` or `pypdf`
-- **Usage:** Drag a PDF into the script folder and run the script.
-
----
-
-### 5. ❓ Quiz Program
-
-- **Description:** A simple multiple-choice quiz about capital cities.
-- **Features:** Score tracking, randomized questions, instant feedback.
-- **Usage:** Run and answer questions in the console.
+| Tool / Script Name                    | Description                                              |
+| ------------------------------------- | -------------------------------------------------------- |
+| 🔍 **Binary Search Algorithm**        | Classic implementation of binary search on sorted arrays |
+| 📧 **Email Sender**                   | Send emails using Python with SMTP authentication        |
+| ✂️ **Email Slicer**                   | Extracts username and domain from email strings          |
+| 🧠 **Face Detector**                  | Detects faces in images using OpenCV and Haar cascades   |
+| 📄 **PDF Metadata Reader**            | Extracts and prints metadata from PDF files              |
+| 🤖 **Python SMS Sender (Automation)** | Sends SMS via Textbelt API on schedule                   |
+| 🔳 **QR Code Generator**              | Generates QR codes from URLs or text using `qrcode`      |
+| ❓ **Quiz Program**                   | Simple interactive terminal quiz with scoring            |
+| 🔐 **Random Password Generator**      | Generates strong passwords of customizable length        |
+| ✊ **Rock Paper Scissors Game**       | CLI game for practicing control flow and logic           |
+| 🌐 **Site Connectivity Checker**      | Checks if a website is online or down                    |
+| 💱 **Universal Currency Converter**   | Converts currencies in real-time using API data          |
+| 📝 **Word Replacement Tool**          | Replaces specific words in a file or text block          |
+| 🎲 **Dice Rolling Simulator**         | Simulates rolling dice with random values                |
+| 🧮 **Interest Payment Calculator**    | Calculates monthly loan payments with APR                |
+| 🌦 **Weather App**                     | Fetches live weather data using OpenWeatherMap API       |
 
 ---
 
-### 6. 📝 Word Replacement Tool
+## ⚙️ Setup & Installation
 
-- **Description:** Replaces a word or phrase in a text file with another.
-- **Features:** File reading, string manipulation.
-- **Usage:** Input original and replacement words; script modifies the file.
+### ✅ Requirements
 
----
-
-### 7. 🌦️ Weather App
-
-- **Description:** Fetches real-time weather data using a public API.
-- **Libraries:** `requests`, `dotenv`, `Flask` (for web version)
-- **Features:** Temperature, condition, and location display.
-- **Usage:** Enter a city name and get current weather data.
-
----
-
-## ⚙️ Requirements
+Most scripts only require:
 
 ```bash
-pip install -r requirements.txt
+pip install requests
+pip install opencv-python
+pip install python-dotenv
 ```
