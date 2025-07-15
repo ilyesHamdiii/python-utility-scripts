@@ -7,7 +7,7 @@ if not os.path.exists(cascade_path):
 
 face_cascade = cv2.CascadeClassifier(cascade_path)
 
-img = cv2.imread("test2.jpg")
+img = cv2.imread("test2   .jpg")
 if img is None:
     print("❌ Image not found or failed to load.")
     exit()
